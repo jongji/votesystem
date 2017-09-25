@@ -1,0 +1,21 @@
+﻿<?php
+ 
+$con=mysqli_connect("127.0.0.1","root","jongji","votingsystem");  
+ 
+mysqli_set_charset($con, "utf8"); 
+
+//echo $candi_number;
+$q = "select count(*) from admin_vote where vote_name = '컴공 학회 투표'";
+
+$r = mysqli_query($con, $q)
+  or die("Error: ".mysqli_error($con));
+  
+$row = mysqli_fetch_array($r);
+
+//$data1 = $row[0];
+
+echo $row[0];
+
+mysqli_close($con);
+
+?>
