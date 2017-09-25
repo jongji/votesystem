@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="건의함"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+
+
+        <TextView
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:text="학생회에게 건의하고 싶은 내용 또는 전하고싶은 말을 해주세요!"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="15dp"
+            android:hint=" 내용을 입력하세요"
+            android:background="@drawable/memo"
+            android:layout_weight="0.04"
+            android:id="@+id/suggest_content" />
+
+        <Button
+            android:onClick="suggest_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:text="제출하기"
+            android:textStyle="bold"
+            android:background="#CCCCFF"
+            android:layout_margin="30dp" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
+

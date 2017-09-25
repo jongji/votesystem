@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|top"
+    android:weightSum="1"
+    android:background="@drawable/ddd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="50dp"
+        android:layout_weight="0.63"
+        android:weightSum="1">
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="이름 "
+            android:id="@+id/editTextUserName" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="학번"
+            android:id="@+id/editTextStudentID" />
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="이메일"
+            android:id="@+id/editTextemail"></EditText>
+
+
+        <Button
+            android:id="@+id/recheck"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:onClick="checkDB"
+            android:layout_margin="20dp"
+            android:text="등록정보 확인"
+            android:background="@drawable/hhh" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호(영문,숫자,특수문자 혼합 8~20자리)"
+            android:inputType="textPassword"
+            android:id="@+id/editTextPassword" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호 확인"
+            android:inputType="textPassword"
+            android:id="@+id/editTextPassword_check" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:onClick="insert"
+            android:layout_margin="20dp"
+            android:text="회원가입 완료"
+            android:background="@drawable/hhh"/>
+    </LinearLayout>
+
+</LinearLayout>

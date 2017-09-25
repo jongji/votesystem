@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+
+
+        <RadioGroup
+            android:id="@+id/dialog_rg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:orientation="vertical">
+
+
+
+            <RadioButton
+                android:id="@+id/candi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="후보 1"
+                android:textSize="12sp"/>
+
+
+            <RadioButton
+                android:id="@+id/candi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="후보 2"
+                android:textSize="12sp"/>
+
+
+            <RadioButton
+                android:id="@+id/candi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="후보 3"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
