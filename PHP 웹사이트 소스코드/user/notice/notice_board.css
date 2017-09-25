@@ -1,0 +1,30 @@
+table.notice_board {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+
+}
+table.notice_board thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #369;
+	border-bottom: 3px solid #036;
+}
+table.notice_board tbody th {
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #f3f6f7;
+}
+table.notice_board td {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+.notice_board .notice_no {width:80px;text-align:center}
+.notice_board .notice_title {width:120px;text-align:center}
+.notice_board .notice_content {width:400px;text-align:center}

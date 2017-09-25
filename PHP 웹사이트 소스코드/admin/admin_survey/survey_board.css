@@ -1,0 +1,29 @@
+table.survey_board {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+
+}
+table.survey_board thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #369;
+	border-bottom: 3px solid #036;
+}
+table.survey_board tbody th {
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #f3f6f7;
+}
+table.survey_board td {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+.survey_board .survey_no {width:80px;text-align:center}
+.survey_board .survey_title {width:160px;text-align:center}

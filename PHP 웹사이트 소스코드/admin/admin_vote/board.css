@@ -1,0 +1,9 @@
+.boardArticle table {width:840px}
+
+.boardArticle th {padding:7px 0;border-top:2px solid #666;border-bottom:1px solid #666}
+
+.boardArticle td {padding:10px 0;border-bottom:1px solid #666}
+.boardArticle .vote_kind {width:150px;text-align:center}
+.boardArticle .no {width:100px;text-align:center}
+.boardArticle .candi1 {width:100px;text-align:center}
+.boardArticle .candi2 {width:100px;text-align:center}

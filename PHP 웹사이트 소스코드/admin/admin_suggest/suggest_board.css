@@ -1,0 +1,29 @@
+table.suggest_board {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+
+}
+table.suggest_board thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #369;
+	border-bottom: 3px solid #036;
+}
+table.suggest_board tbody th {
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #f3f6f7;
+}
+table.suggest_board td {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+.suggest_board .suggest_no {width:80px;text-align:center}
+.suggest_board .suggest_title {width:160px;text-align:center}
